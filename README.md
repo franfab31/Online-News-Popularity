@@ -2,10 +2,13 @@
 This project focuses on predicting the popularity of articles published by Mashable based on various attributes related to the article's content and metadata. The dataset used contains 61 attributes, including statistics like word counts, number of images and videos, sentiment polarity, and keyword information. The goal is to either predict the number of shares (regression) or classify the articles into low or high popularity (classification), based on whether the number of shares is below or above 1,400.
 
 Task Descriptions:
-        -Regression: Predict the exact number of shares an article will receive using the provided           attributes. The model's performance is evaluated using Root Mean Squared Error (RMSE).
+
+        -Regression: Predict the exact number of shares an article will receive using the provided attributes. 
+         The model's performance is evaluated using Root Mean Squared Error (RMSE).
         -Classification: Classify articles into two categories:
             -Low popularity: shares < 1,400
-            -High popularity: shares ≥ 1,400 The classification model is evaluated using accuracy,               which measures the proportion of correct predictions.
+            -High popularity: shares ≥ 1,400 The classification model is evaluated using accuracy, 
+             which measures the proportion of correct predictions.
 
 Models and Approaches:
 As part of this project, I explored several machine learning algorithms, both for regression and classification tasks, including:
