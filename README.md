@@ -20,3 +20,5 @@ As part of this project, I explored several machine learning algorithms, both fo
         -Neural Networks for both regression and classification tasks
 
 This project represents my first approach to the field of Artificial Intelligence and Machine Learning. Through hands-on experimentation with different algorithms, I gained a deeper understanding of the strengths and limitations of each approach, particularly in dealing with real-world datasets like this one. I learned to apply decision trees, linear models, KNN, and neural networks to various tasks and to assess their performance using the appropriate metrics for each problem type.
+
+Colab link: https://colab.research.google.com/drive/1xe_RlVNXkAbRpa8jtHLSUyshC9kMZWb5?usp=sharing
