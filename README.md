@@ -35,6 +35,12 @@ Data is split 80/20 into train and test sets. Features are standardised, which a
 \* The from-scratch network is sensitive to the train/test split and to weight initialisation.<br>
 † Computed on standardised targets, so it is not comparable with the other RMSE values.
 
+![Accuracy comparison](assets/accuracy_comparison.png)
+
+For k-NN, the test accuracy of the scikit-learn classifier keeps rising as k grows:
+
+![k-NN accuracy vs k](assets/knn_accuracy_vs_k.png)
+
 ## Takeaways
 
 - Logistic regression was the most accurate and stable classifier. k-NN gives similar results but is much slower at prediction time. With scikit-learn, accuracy keeps improving up to k = 15 (63%).
